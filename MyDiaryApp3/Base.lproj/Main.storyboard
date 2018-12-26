@@ -84,6 +84,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bb5-Xm-aCr">
                                 <rect key="frame" x="16" y="108" width="343" height="30"/>
                                 <state key="normal" title="Add Text"/>
+                                <connections>
+                                    <action selector="addTextButton:" destination="Lvm-WX-LNI" eventType="touchUpInside" id="uHD-rX-dDs"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kmk-UE-N8v">
                                 <rect key="frame" x="16" y="170" width="343" height="392"/>
@@ -112,6 +115,10 @@
                         <viewLayoutGuide key="safeArea" id="giR-s4-8S0"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="My Day" id="NAi-ov-HlU"/>
+                    <connections>
+                        <outlet property="myToDos" destination="kmk-UE-N8v" id="RSz-o2-zK9"/>
+                        <outlet property="userInput" destination="TTO-Ub-Ypy" id="kun-xb-Edq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qp4-eu-4ZZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
