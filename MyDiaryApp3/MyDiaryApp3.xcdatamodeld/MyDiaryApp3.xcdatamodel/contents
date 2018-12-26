@@ -3,15 +3,16 @@
     <entity name="Person" representedClassName="Person" syncable="YES" codeGenerationType="class">
         <attribute name="first_name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="last_name" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="task" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Task" syncable="YES"/>
+        <relationship name="task" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Task" inverseName="person" inverseEntity="Task" syncable="YES"/>
     </entity>
     <entity name="Task" representedClassName="Task" syncable="YES" codeGenerationType="class">
         <attribute name="afternoon" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="night" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="noon" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="task" inverseEntity="Person" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Task" positionX="-322.58203125" positionY="-50.046875" width="128" height="90"/>
+        <element name="Task" positionX="-322.58203125" positionY="-50.046875" width="128" height="105"/>
         <element name="Person" positionX="-54" positionY="-9" width="128" height="90"/>
     </elements>
 </model>
