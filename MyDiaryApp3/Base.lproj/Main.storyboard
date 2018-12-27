@@ -39,13 +39,16 @@
         <!--Microphone-->
         <scene sceneID="HJD-o6-xAm">
             <objects>
-                <viewController id="ioW-ii-ZxQ" sceneMemberID="viewController">
+                <viewController id="ioW-ii-ZxQ" customClass="AudioViewController" customModule="MyDiaryApp3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LTE-Mw-z1J">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Micro_Background" translatesAutoresizingMaskIntoConstraints="NO" id="C2H-Ev-ow6">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="h5h-yU-1Xd"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Record a track and play it!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Lx-xd-iR7">
                                 <rect key="frame" x="16" y="20" width="343" height="24"/>
@@ -53,22 +56,60 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xx8-Wf-Zb0">
+                                <rect key="frame" x="16" y="94" width="343" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Record Audio"/>
+                                <connections>
+                                    <action selector="recordAudio:" destination="ioW-ii-ZxQ" eventType="touchUpInside" id="ZHk-Ld-fKW"/>
+                                    <action selector="recordAudio:" destination="GhU-H6-PPy" eventType="touchUpInside" id="q2E-F3-VS7"/>
+                                    <action selector="recordAufio:" destination="GhU-H6-PPy" eventType="touchUpInside" id="Ofs-8p-nMv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgG-zS-YPb">
+                                <rect key="frame" x="16" y="180" width="343" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="stopAudio:" destination="GhU-H6-PPy" eventType="touchUpInside" id="VAg-0H-V3F"/>
+                                    <action selector="stopAudio:" destination="ioW-ii-ZxQ" eventType="touchUpInside" id="oEI-Jz-58f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gxt-GA-fho">
+                                <rect key="frame" x="16" y="268" width="343" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Play Audio"/>
+                                <connections>
+                                    <action selector="playAudio:" destination="GhU-H6-PPy" eventType="touchUpInside" id="rX4-mq-xvm"/>
+                                    <action selector="playAudio:" destination="ioW-ii-ZxQ" eventType="touchUpInside" id="ujP-ah-2Kq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="RVc-tb-OSg" firstAttribute="trailing" secondItem="wgG-zS-YPb" secondAttribute="trailing" constant="16" id="7Ba-5r-BpU"/>
+                            <constraint firstItem="Xx8-Wf-Zb0" firstAttribute="leading" secondItem="RVc-tb-OSg" secondAttribute="leading" constant="16" id="AMp-m9-UyX"/>
+                            <constraint firstItem="RVc-tb-OSg" firstAttribute="trailing" secondItem="Gxt-GA-fho" secondAttribute="trailing" constant="16" id="At9-Gm-j0b"/>
+                            <constraint firstItem="Gxt-GA-fho" firstAttribute="top" secondItem="wgG-zS-YPb" secondAttribute="bottom" constant="50" id="Cds-15-lpG"/>
                             <constraint firstItem="C2H-Ev-ow6" firstAttribute="leading" secondItem="RVc-tb-OSg" secondAttribute="leading" id="E1x-bj-bTd"/>
                             <constraint firstItem="C2H-Ev-ow6" firstAttribute="trailing" secondItem="RVc-tb-OSg" secondAttribute="trailing" id="Iwk-nP-ZoW"/>
                             <constraint firstItem="9Lx-xd-iR7" firstAttribute="top" secondItem="RVc-tb-OSg" secondAttribute="top" id="ODm-Tv-g5G"/>
+                            <constraint firstItem="RVc-tb-OSg" firstAttribute="trailing" secondItem="Xx8-Wf-Zb0" secondAttribute="trailing" constant="16" id="TOe-NA-hok"/>
                             <constraint firstItem="RVc-tb-OSg" firstAttribute="trailing" secondItem="9Lx-xd-iR7" secondAttribute="trailing" constant="16" id="TSF-Qg-YrJ"/>
+                            <constraint firstItem="wgG-zS-YPb" firstAttribute="top" secondItem="Xx8-Wf-Zb0" secondAttribute="bottom" constant="50" id="YOU-lk-afg"/>
                             <constraint firstItem="C2H-Ev-ow6" firstAttribute="top" secondItem="LTE-Mw-z1J" secondAttribute="top" id="aOw-wD-phZ"/>
+                            <constraint firstItem="Xx8-Wf-Zb0" firstAttribute="top" secondItem="9Lx-xd-iR7" secondAttribute="bottom" constant="50" id="gJX-KB-PEG"/>
                             <constraint firstItem="9Lx-xd-iR7" firstAttribute="leading" secondItem="RVc-tb-OSg" secondAttribute="leading" constant="16" id="hwW-LP-aP2"/>
                             <constraint firstAttribute="bottom" secondItem="C2H-Ev-ow6" secondAttribute="bottom" id="kBX-xm-6EN"/>
+                            <constraint firstItem="wgG-zS-YPb" firstAttribute="leading" secondItem="RVc-tb-OSg" secondAttribute="leading" constant="16" id="tLH-vp-KvK"/>
+                            <constraint firstItem="Gxt-GA-fho" firstAttribute="leading" secondItem="RVc-tb-OSg" secondAttribute="leading" constant="16" id="wWl-Z5-QCQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RVc-tb-OSg"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Microphone" image="Microphone" landscapeImage="Microphone" largeContentSizeImage="Microphone" id="ThS-aq-Syv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bs9-Xd-aMF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="GhU-H6-PPy" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="376.80000000000001" y="179.46026986506749"/>
         </scene>
