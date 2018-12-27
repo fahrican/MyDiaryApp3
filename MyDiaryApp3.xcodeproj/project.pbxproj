@@ -14,6 +14,7 @@
 		117E576021D41221009E4240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117E575F21D41221009E4240 /* Assets.xcassets */; };
 		117E576321D41221009E4240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117E576121D41221009E4240 /* LaunchScreen.storyboard */; };
 		11C024AC21D5612800EE58BD /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C024AB21D5612800EE58BD /* AudioViewController.swift */; };
+		11C024AE21D5661C00EE58BD /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C024AD21D5661C00EE58BD /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		117E576221D41221009E4240 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		117E576421D41221009E4240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11C024AB21D5612800EE58BD /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		11C024AD21D5661C00EE58BD /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				117E576421D41221009E4240 /* Info.plist */,
 				117E575C21D41221009E4240 /* MyDiaryApp3.xcdatamodeld */,
 				11C024AB21D5612800EE58BD /* AudioViewController.swift */,
+				11C024AD21D5661C00EE58BD /* CameraViewController.swift */,
 			);
 			path = MyDiaryApp3;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				117E575821D41221009E4240 /* TaskViewController.swift in Sources */,
+				11C024AE21D5661C00EE58BD /* CameraViewController.swift in Sources */,
 				11C024AC21D5612800EE58BD /* AudioViewController.swift in Sources */,
 				117E575621D41220009E4240 /* AppDelegate.swift in Sources */,
 				117E575E21D41221009E4240 /* MyDiaryApp3.xcdatamodeld in Sources */,
