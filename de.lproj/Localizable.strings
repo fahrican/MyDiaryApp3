@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  MyDiaryApp3
+
+  Created by fahri on 27.12.18.
+  Copyright © 2018 fahri. All rights reserved.
+*/
+"Welcome" = "Willkommen";
+"AddDay" = "Tag";
+"WhatIdidToday" = "Was ich heute tat";
+"AddToDo" = "Aufgabe";

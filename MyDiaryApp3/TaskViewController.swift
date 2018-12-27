@@ -18,11 +18,20 @@ class TaskViewController: UIViewController {
     
     @IBOutlet weak var myDays: UITextView!
     
+    @IBOutlet weak var headline: UILabel!
+    
+    @IBOutlet weak var textAddDay: UIButton!
+    
+    @IBOutlet weak var textAddToDo: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.myToDos.text = ""
         self.myDays.text = ""
+        self.headline.text = NSLocalizedString("WhatIdidToday", comment: "")
+        self.textAddDay.setTitle(NSLocalizedString("AddDay", comment: ""), for: .normal)
+        self.textAddToDo.setTitle(NSLocalizedString("AddToDo", comment: ""), for: .normal)
     }
 
     @IBAction func addDayButton(_ sender: Any) {

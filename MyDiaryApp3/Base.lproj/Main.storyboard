@@ -206,8 +206,11 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="My Day" image="Calendar" landscapeImage="Calendar" largeContentSizeImage="Calendar" id="NAi-ov-HlU"/>
                     <connections>
+                        <outlet property="headline" destination="7TH-JT-SC6" id="N21-cL-HcW"/>
                         <outlet property="myDays" destination="Wx3-OZ-vYW" id="Awy-RI-JLP"/>
                         <outlet property="myToDos" destination="kmk-UE-N8v" id="RSz-o2-zK9"/>
+                        <outlet property="textAddDay" destination="IWl-Nf-kLe" id="q7o-J7-lU5"/>
+                        <outlet property="textAddToDo" destination="bb5-Xm-aCr" id="1tE-qS-Fgx"/>
                         <outlet property="userInput" destination="TTO-Ub-Ypy" id="kun-xb-Edq"/>
                     </connections>
                 </viewController>

@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Share an image witha friend!"; ObjectID = "6nr-Q0-xxX"; */
+"6nr-Q0-xxX.text" = "Share an image witha friend!";
+
+/* Class = "UILabel"; text = "What I did today"; ObjectID = "7TH-JT-SC6"; */
+"7TH-JT-SC6.text" = "What I did today";
+
+/* Class = "UILabel"; text = "Record a track and play it!"; ObjectID = "9Lx-xd-iR7"; */
+"9Lx-xd-iR7.text" = "Record a track and play it!";
+
+/* Class = "UIButton"; normalTitle = "Play Audio"; ObjectID = "Gxt-GA-fho"; */
+"Gxt-GA-fho.normalTitle" = "Play Audio";
+
+/* Class = "UIButton"; normalTitle = "Add Day"; ObjectID = "IWl-Nf-kLe"; */
+"IWl-Nf-kLe.normalTitle" = "Add Day";
+
+/* Class = "UITabBarItem"; title = "My Day"; ObjectID = "NAi-ov-HlU"; */
+"NAi-ov-HlU.title" = "My Day";
+
+/* Class = "UIButton"; normalTitle = "Share Image"; ObjectID = "RzY-6T-ism"; */
+"RzY-6T-ism.normalTitle" = "Share Image";
+
+/* Class = "UITabBarItem"; title = "Microphone"; ObjectID = "ThS-aq-Syv"; */
+"ThS-aq-Syv.title" = "Microphone";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "Wx3-OZ-vYW"; */
+"Wx3-OZ-vYW.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "Record Audio"; ObjectID = "Xx8-Wf-Zb0"; */
+"Xx8-Wf-Zb0.normalTitle" = "Record Audio";
+
+/* Class = "UIButton"; normalTitle = "Add ToDo"; ObjectID = "bb5-Xm-aCr"; */
+"bb5-Xm-aCr.normalTitle" = "Add ToDo";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "kmk-UE-N8v"; */
+"kmk-UE-N8v.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITabBarItem"; title = "Camera"; ObjectID = "qMH-Ih-5l9"; */
+"qMH-Ih-5l9.title" = "Camera";
+
+/* Class = "UIButton"; normalTitle = "Stop"; ObjectID = "wgG-zS-YPb"; */
+"wgG-zS-YPb.normalTitle" = "Stop";
