@@ -29,7 +29,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="LJA-tR-zdL"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Camera" id="qMH-Ih-5l9"/>
+                    <tabBarItem key="tabBarItem" title="Camera" image="Camera" id="qMH-Ih-5l9"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kAw-q2-1HJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -55,7 +55,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="RVc-tb-OSg"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Microphone" id="ThS-aq-Syv"/>
+                    <tabBarItem key="tabBarItem" title="Microphone" image="Microphone" landscapeImage="Microphone" largeContentSizeImage="Microphone" id="ThS-aq-Syv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bs9-Xd-aMF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -137,7 +137,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="giR-s4-8S0"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Day" id="NAi-ov-HlU"/>
+                    <tabBarItem key="tabBarItem" title="My Day" image="Calendar" landscapeImage="Calendar" largeContentSizeImage="Calendar" id="NAi-ov-HlU"/>
                     <connections>
                         <outlet property="myDays" destination="Wx3-OZ-vYW" id="Awy-RI-JLP"/>
                         <outlet property="myToDos" destination="kmk-UE-N8v" id="RSz-o2-zK9"/>
@@ -168,4 +168,9 @@
             <point key="canvasLocation" x="-884" y="92"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Calendar" width="20" height="20"/>
+        <image name="Camera" width="20" height="20"/>
+        <image name="Microphone" width="20" height="20"/>
+    </resources>
 </document>
