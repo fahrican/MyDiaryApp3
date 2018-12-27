@@ -82,14 +82,28 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bb5-Xm-aCr">
-                                <rect key="frame" x="16" y="108" width="343" height="30"/>
+                                <rect key="frame" x="298" y="108" width="61" height="30"/>
                                 <state key="normal" title="Add Text"/>
                                 <connections>
                                     <action selector="addTextButton:" destination="Lvm-WX-LNI" eventType="touchUpInside" id="uHD-rX-dDs"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWl-Nf-kLe">
+                                <rect key="frame" x="16" y="108" width="58" height="30"/>
+                                <state key="normal" title="Add Day"/>
+                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kmk-UE-N8v">
-                                <rect key="frame" x="16" y="170" width="343" height="392"/>
+                                <rect key="frame" x="196" y="170" width="163" height="438"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="163" id="dRK-wk-0bQ"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Wx3-OZ-vYW">
+                                <rect key="frame" x="16" y="170" width="164" height="438"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -98,19 +112,25 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="kmk-UE-N8v" firstAttribute="top" secondItem="bb5-Xm-aCr" secondAttribute="bottom" constant="32" id="6PC-i0-SvB"/>
-                            <constraint firstItem="7TH-JT-SC6" firstAttribute="top" secondItem="giR-s4-8S0" secondAttribute="top" id="AoN-pj-0jY"/>
-                            <constraint firstItem="7TH-JT-SC6" firstAttribute="leading" secondItem="giR-s4-8S0" secondAttribute="leading" constant="16" id="GTp-ni-JN0"/>
-                            <constraint firstItem="giR-s4-8S0" firstAttribute="trailing" secondItem="kmk-UE-N8v" secondAttribute="trailing" constant="16" id="J1u-5F-Oer"/>
-                            <constraint firstItem="bb5-Xm-aCr" firstAttribute="top" secondItem="TTO-Ub-Ypy" secondAttribute="bottom" constant="24" id="LN1-Xa-n2L"/>
-                            <constraint firstItem="TTO-Ub-Ypy" firstAttribute="leading" secondItem="giR-s4-8S0" secondAttribute="leading" constant="16" id="TGa-h2-IhQ"/>
-                            <constraint firstItem="giR-s4-8S0" firstAttribute="trailing" secondItem="TTO-Ub-Ypy" secondAttribute="trailing" constant="16" id="aTh-IR-T42"/>
-                            <constraint firstItem="TTO-Ub-Ypy" firstAttribute="top" secondItem="7TH-JT-SC6" secondAttribute="bottom" constant="8" id="b4F-Gk-lwo"/>
-                            <constraint firstItem="giR-s4-8S0" firstAttribute="trailing" secondItem="7TH-JT-SC6" secondAttribute="trailing" constant="16" id="dPR-qS-Jbp"/>
-                            <constraint firstItem="giR-s4-8S0" firstAttribute="trailing" secondItem="bb5-Xm-aCr" secondAttribute="trailing" constant="16" id="dQ8-WS-Un2"/>
-                            <constraint firstItem="bb5-Xm-aCr" firstAttribute="leading" secondItem="giR-s4-8S0" secondAttribute="leading" constant="16" id="hjM-VY-rTO"/>
-                            <constraint firstItem="giR-s4-8S0" firstAttribute="bottom" secondItem="kmk-UE-N8v" secondAttribute="bottom" constant="56" id="j6p-8m-qJQ"/>
-                            <constraint firstItem="kmk-UE-N8v" firstAttribute="leading" secondItem="giR-s4-8S0" secondAttribute="leading" constant="16" id="y0G-1Q-fhB"/>
+                            <constraint firstItem="giR-s4-8S0" firstAttribute="trailing" secondItem="kmk-UE-N8v" secondAttribute="trailing" constant="16" id="4rh-wU-Roi"/>
+                            <constraint firstItem="kmk-UE-N8v" firstAttribute="leading" secondItem="Wx3-OZ-vYW" secondAttribute="trailing" constant="16" id="533-kl-3oJ"/>
+                            <constraint firstItem="TTO-Ub-Ypy" firstAttribute="leading" secondItem="IWl-Nf-kLe" secondAttribute="leading" id="60N-6a-Kri"/>
+                            <constraint firstItem="IWl-Nf-kLe" firstAttribute="leading" secondItem="giR-s4-8S0" secondAttribute="leading" constant="16" id="E3i-EB-Zbk"/>
+                            <constraint firstItem="TTO-Ub-Ypy" firstAttribute="trailing" secondItem="kmk-UE-N8v" secondAttribute="trailing" id="Ted-br-rnF"/>
+                            <constraint firstItem="kmk-UE-N8v" firstAttribute="top" secondItem="bb5-Xm-aCr" secondAttribute="bottom" constant="32" id="UHO-Er-Hrq"/>
+                            <constraint firstItem="giR-s4-8S0" firstAttribute="trailing" secondItem="bb5-Xm-aCr" secondAttribute="trailing" constant="16" id="Uv7-ND-m5U"/>
+                            <constraint firstItem="bb5-Xm-aCr" firstAttribute="top" secondItem="TTO-Ub-Ypy" secondAttribute="bottom" constant="24" id="WsS-SP-q7W"/>
+                            <constraint firstItem="TTO-Ub-Ypy" firstAttribute="top" secondItem="8DY-Io-m5r" secondAttribute="top" constant="54" id="cha-Ld-Yeb"/>
+                            <constraint firstItem="TTO-Ub-Ypy" firstAttribute="top" secondItem="7TH-JT-SC6" secondAttribute="bottom" constant="8" symbolic="YES" id="cx5-Hh-BhS"/>
+                            <constraint firstItem="Wx3-OZ-vYW" firstAttribute="leading" secondItem="giR-s4-8S0" secondAttribute="leading" constant="16" id="dPj-Z0-jLT"/>
+                            <constraint firstItem="IWl-Nf-kLe" firstAttribute="top" secondItem="TTO-Ub-Ypy" secondAttribute="bottom" constant="24" id="eoP-KM-Pre"/>
+                            <constraint firstItem="Wx3-OZ-vYW" firstAttribute="top" secondItem="IWl-Nf-kLe" secondAttribute="bottom" constant="32" id="gRF-4e-wV4"/>
+                            <constraint firstItem="TTO-Ub-Ypy" firstAttribute="leading" secondItem="7TH-JT-SC6" secondAttribute="leading" id="hGd-RO-uOC"/>
+                            <constraint firstItem="giR-s4-8S0" firstAttribute="bottom" secondItem="kmk-UE-N8v" secondAttribute="bottom" constant="10" id="jOp-Uq-SQ4"/>
+                            <constraint firstItem="kmk-UE-N8v" firstAttribute="bottom" secondItem="Wx3-OZ-vYW" secondAttribute="bottom" id="tS5-Aw-raQ"/>
+                            <constraint firstItem="kmk-UE-N8v" firstAttribute="leading" secondItem="Wx3-OZ-vYW" secondAttribute="trailing" constant="16" id="us5-HC-1JY"/>
+                            <constraint firstItem="TTO-Ub-Ypy" firstAttribute="trailing" secondItem="7TH-JT-SC6" secondAttribute="trailing" id="vq2-P1-XJU"/>
+                            <constraint firstItem="bb5-Xm-aCr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="IWl-Nf-kLe" secondAttribute="trailing" constant="8" symbolic="YES" id="xRJ-7j-sgF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="giR-s4-8S0"/>
                     </view>
