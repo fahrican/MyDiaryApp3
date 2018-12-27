@@ -44,22 +44,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Microphone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HR4-AV-lFV">
-                                <rect key="frame" x="166" y="199" width="92" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Micro_Background" translatesAutoresizingMaskIntoConstraints="NO" id="C2H-Ev-ow6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Record a track and play it!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Lx-xd-iR7">
+                                <rect key="frame" x="16" y="20" width="343" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="C2H-Ev-ow6" firstAttribute="leading" secondItem="RVc-tb-OSg" secondAttribute="leading" id="E1x-bj-bTd"/>
+                            <constraint firstItem="C2H-Ev-ow6" firstAttribute="trailing" secondItem="RVc-tb-OSg" secondAttribute="trailing" id="Iwk-nP-ZoW"/>
+                            <constraint firstItem="9Lx-xd-iR7" firstAttribute="top" secondItem="RVc-tb-OSg" secondAttribute="top" id="ODm-Tv-g5G"/>
+                            <constraint firstItem="RVc-tb-OSg" firstAttribute="trailing" secondItem="9Lx-xd-iR7" secondAttribute="trailing" constant="16" id="TSF-Qg-YrJ"/>
+                            <constraint firstItem="C2H-Ev-ow6" firstAttribute="top" secondItem="LTE-Mw-z1J" secondAttribute="top" id="aOw-wD-phZ"/>
+                            <constraint firstItem="9Lx-xd-iR7" firstAttribute="leading" secondItem="RVc-tb-OSg" secondAttribute="leading" constant="16" id="hwW-LP-aP2"/>
+                            <constraint firstAttribute="bottom" secondItem="C2H-Ev-ow6" secondAttribute="bottom" id="kBX-xm-6EN"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="RVc-tb-OSg"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Microphone" image="Microphone" landscapeImage="Microphone" largeContentSizeImage="Microphone" id="ThS-aq-Syv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bs9-Xd-aMF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="377" y="180"/>
+            <point key="canvasLocation" x="376.80000000000001" y="179.46026986506749"/>
         </scene>
         <!--My Day-->
         <scene sceneID="IZN-h3-n6V">
@@ -171,6 +182,7 @@
     <resources>
         <image name="Calendar" width="20" height="20"/>
         <image name="Camera" width="20" height="20"/>
+        <image name="Micro_Background" width="3008" height="2008"/>
         <image name="Microphone" width="20" height="20"/>
     </resources>
 </document>
