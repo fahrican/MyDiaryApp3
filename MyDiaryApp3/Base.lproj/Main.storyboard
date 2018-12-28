@@ -181,25 +181,24 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="kmk-UE-N8v" firstAttribute="leading" secondItem="Wx3-OZ-vYW" secondAttribute="trailing" constant="16" id="1za-9L-Q8Y"/>
                             <constraint firstItem="giR-s4-8S0" firstAttribute="trailing" secondItem="kmk-UE-N8v" secondAttribute="trailing" constant="16" id="5X2-Og-Q8v"/>
                             <constraint firstItem="7TH-JT-SC6" firstAttribute="top" secondItem="giR-s4-8S0" secondAttribute="top" constant="8" id="63z-YZ-XIy"/>
                             <constraint firstItem="kmk-UE-N8v" firstAttribute="top" secondItem="bb5-Xm-aCr" secondAttribute="bottom" constant="24" id="64M-Fj-O8w"/>
                             <constraint firstItem="giR-s4-8S0" firstAttribute="bottom" secondItem="kmk-UE-N8v" secondAttribute="bottom" constant="10" id="8LC-Z3-3Wj"/>
                             <constraint firstItem="IWl-Nf-kLe" firstAttribute="top" secondItem="TTO-Ub-Ypy" secondAttribute="bottom" constant="8" id="8SQ-cQ-q3M"/>
+                            <constraint firstItem="Wx3-OZ-vYW" firstAttribute="bottom" secondItem="kmk-UE-N8v" secondAttribute="bottom" id="B2v-i3-oDx"/>
                             <constraint firstItem="giR-s4-8S0" firstAttribute="trailing" secondItem="7TH-JT-SC6" secondAttribute="trailing" constant="16" id="DiY-ww-YAX"/>
                             <constraint firstItem="kmk-UE-N8v" firstAttribute="top" secondItem="bb5-Xm-aCr" secondAttribute="bottom" constant="24" id="J7c-Df-lFA"/>
                             <constraint firstItem="TTO-Ub-Ypy" firstAttribute="top" secondItem="7TH-JT-SC6" secondAttribute="bottom" constant="16" id="KcF-6A-MDH"/>
-                            <constraint firstItem="kmk-UE-N8v" firstAttribute="leading" secondItem="Wx3-OZ-vYW" secondAttribute="trailing" constant="16" id="PUu-f2-juj"/>
                             <constraint firstItem="giR-s4-8S0" firstAttribute="trailing" secondItem="TTO-Ub-Ypy" secondAttribute="trailing" constant="16" id="XrW-Hv-9P8"/>
+                            <constraint firstItem="Wx3-OZ-vYW" firstAttribute="leading" secondItem="giR-s4-8S0" secondAttribute="leading" constant="16" id="fcq-sq-Nez"/>
                             <constraint firstItem="TTO-Ub-Ypy" firstAttribute="leading" secondItem="giR-s4-8S0" secondAttribute="leading" constant="16" id="gBY-dE-u8l"/>
                             <constraint firstItem="bb5-Xm-aCr" firstAttribute="top" secondItem="TTO-Ub-Ypy" secondAttribute="bottom" constant="8" id="hJj-0y-2zN"/>
+                            <constraint firstItem="Wx3-OZ-vYW" firstAttribute="top" secondItem="IWl-Nf-kLe" secondAttribute="bottom" constant="24" id="iJt-RD-k7a"/>
+                            <constraint firstItem="kmk-UE-N8v" firstAttribute="leading" secondItem="Wx3-OZ-vYW" secondAttribute="trailing" constant="16" id="k3a-8c-s9M"/>
                             <constraint firstItem="giR-s4-8S0" firstAttribute="trailing" secondItem="bb5-Xm-aCr" secondAttribute="trailing" constant="16" id="lsP-h8-xDn"/>
-                            <constraint firstItem="Wx3-OZ-vYW" firstAttribute="top" secondItem="IWl-Nf-kLe" secondAttribute="bottom" constant="24" id="nOb-sa-Zi8"/>
-                            <constraint firstItem="Wx3-OZ-vYW" firstAttribute="leading" secondItem="giR-s4-8S0" secondAttribute="leading" constant="16" id="nvC-zu-sO5"/>
-                            <constraint firstItem="kmk-UE-N8v" firstAttribute="bottom" secondItem="Wx3-OZ-vYW" secondAttribute="bottom" id="onw-V9-DNS"/>
                             <constraint firstItem="IWl-Nf-kLe" firstAttribute="leading" secondItem="giR-s4-8S0" secondAttribute="leading" constant="16" id="oqB-6p-49p"/>
-                            <constraint firstItem="Wx3-OZ-vYW" firstAttribute="top" secondItem="IWl-Nf-kLe" secondAttribute="bottom" constant="24" id="uR9-u4-UY7"/>
+                            <constraint firstItem="bb5-Xm-aCr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="IWl-Nf-kLe" secondAttribute="trailing" constant="8" symbolic="YES" id="xNj-I5-lIs"/>
                             <constraint firstItem="7TH-JT-SC6" firstAttribute="leading" secondItem="giR-s4-8S0" secondAttribute="leading" constant="16" id="xtw-Wn-nSd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="giR-s4-8S0"/>
